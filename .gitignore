@@ -1,0 +1,10 @@
+save games/
+dumps/
+mod/
+pdx_launcher/
+playlists/
+shadercache/
+workshop/
+dlc_signature
+pops_filestorage.index
+settings.txt
