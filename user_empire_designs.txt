@@ -866,3 +866,554 @@
 	trait="trait_repugnant"
 	trait="trait_rapid_breeders"
 }
+"Unified Athanebian Stars"
+={
+	key="Unified Athanebian Stars"
+	name_list="REP2"
+	ship_prefix=""
+	species_name="Athanebian"
+	species_plural="Athanebians"
+	species_class="REP"
+	species_adjective="Athanebian"
+	species_bio=""
+	portrait="rep14"
+	name="Unified Athanebian Stars"
+	adjective="Athanebian"
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	ftl=wormhole
+	weapon="tech_lasers_1"
+	planet_name="Bessqa"
+	planet_class="pc_arctic"
+	system_name="Bess'Qoro"
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_1.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Xoblagiss"
+		portrait="rep14"
+		texture=1
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room=""
+	spawn_enabled=yes
+	ethic="ethic_militarist"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_distinguished_admiralty"
+		"civic_warrior_culture"
+	}
+	trait="trait_communal"
+	trait="trait_charismatic"
+}
+"Klaggian Hive"
+={
+	key="Klaggian Hive"
+	name_list="MAM5"
+	ship_prefix=""
+	species_name="Klaggian"
+	species_plural="Klaggians"
+	species_class="MAM"
+	species_adjective="Klaggian"
+	species_bio=""
+	portrait="mam16"
+	name="Klaggian Hive"
+	adjective="Klaggian"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	ftl=wormhole
+	weapon="tech_lasers_1"
+	planet_name="Ufram Puf"
+	planet_class="pc_continental"
+	system_name="Ufram"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="paradox"
+			file="paradox_logo.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Regolid ov'Gut"
+		portrait="mam16_m"
+		texture=2
+		hair=0
+		clothes=4
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room=""
+	spawn_enabled=yes
+	ethic="ethic_hive_mind"
+	civics={
+		"civic_hive_natural_neural_network"
+		"civic_hive_one_mind"
+	}
+	trait="trait_intelligent"
+}
+"Kocal Autocracy"
+={
+	key="Kocal Autocracy"
+	name_list="PLANT"
+	ship_prefix="ASS"
+	species_name="Kocal"
+	species_plural="Kocals"
+	species_class="PLANT"
+	species_adjective="Kocal"
+	species_bio=""
+	portrait="pla2"
+	name="Kocal Autocracy"
+	adjective="Kocal"
+	authority="auth_imperial"
+	government="gov_despotic_hegemony"
+	ftl=wormhole
+	weapon="tech_mass_drivers_1"
+	planet_name="Mirovandia Prima"
+	planet_class="pc_arid"
+	system_name="Mirov"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_21.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Fronds of Brown"
+		portrait="pla2"
+		texture=3
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room=""
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_efficient_bureaucracy"
+		"civic_mechanists"
+	}
+	trait="trait_adaptive"
+	trait="trait_weak"
+	trait="trait_charismatic"
+}
+"Jizz Cartel"
+={
+	key="Jizz Cartel"
+	name_list="PLANT"
+	ship_prefix="ISS"
+	species_name="Jizzavata"
+	species_plural="Jizzavatae"
+	species_class="PLANT"
+	species_adjective="jizzavatan"
+	species_bio=""
+	portrait="pla1"
+	name="Jizz Cartel"
+	adjective="Jizz"
+	authority="auth_oligarchic"
+	government="gov_science_directorate"
+	ftl=wormhole
+	weapon="tech_lasers_1"
+	planet_name="Jizz Master"
+	planet_class="pc_arctic"
+	system_name="Jizz Master"
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag={
+		icon={
+			category="pirate"
+			file="flag_pirate_6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Stalk of Maroon"
+		portrait="pla1"
+		texture=1
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room=""
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_technocracy"
+		"civic_mining_guilds"
+	}
+	trait="trait_adaptive"
+	trait="trait_slow_learners"
+	trait="trait_natural_engineers"
+}
+"Jizzvata Cartel"
+={
+	key="Jizzvata Cartel"
+	name_list="REP2"
+	ship_prefix="ISS"
+	species_name="Jizzvata"
+	species_plural="Jizzvatae"
+	species_class="REP"
+	species_adjective="jizzvatan"
+	species_bio=""
+	portrait="rep16"
+	name="Jizzvata Cartel"
+	adjective="Jizzvatan"
+	authority="auth_imperial"
+	government="gov_divine_empire"
+	ftl=wormhole
+	weapon="tech_lasers_1"
+	planet_name="Jizz Master"
+	planet_class="pc_arctic"
+	system_name="Jizz Master"
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_20.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Zoz"
+		portrait="rep16_m"
+		texture=1
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_authoritarian_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_imperial_cult"
+		"civic_philosopher_king"
+	}
+	trait="trait_natural_sociologists"
+	trait="trait_communal"
+	trait="trait_decadent"
+}
+"Divine Barbaculum Brotherhood"
+={
+	key="Divine Barbaculum Brotherhood"
+	name_list="PLANT"
+	ship_prefix="ASS"
+	species_name="Barbaculum"
+	species_plural="Barbaculum"
+	species_class="AVI"
+	species_adjective="Barbaculum"
+	species_bio=""
+	portrait="avi17"
+	name="Divine Barbaculum Brotherhood"
+	adjective="Barbaculum"
+	authority="auth_democratic"
+	government="gov_theocratic_republic"
+	ftl=wormhole
+	weapon="tech_mass_drivers_1"
+	planet_name="Barbaculum Primum"
+	planet_class="pc_tropical"
+	system_name="Barbaculum"
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_14.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Rhizome of Indigo"
+		portrait="avi17"
+		texture=4
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_authoritarian_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_beacon_of_liberty"
+		"civic_police_state"
+	}
+	trait="trait_sedentary"
+	trait="trait_conservational"
+	trait="trait_rapid_breeders"
+	trait="trait_resilient"
+}
+"Uninfected Corporation"
+={
+	key="Uninfected Corporation"
+	name_list="HUM4"
+	ship_prefix="FCK"
+	species_name="Kithri"
+	species_plural="Kithri"
+	species_class="FUN"
+	species_adjective="Kithrian"
+	species_bio=""
+	portrait="fun16"
+	name="Uninfected Corporation"
+	adjective="UNINFECTED"
+	authority="auth_democratic"
+	government="gov_moral_democracy"
+	ftl=wormhole
+	weapon="tech_missiles_1"
+	planet_name="Umbrella Prime"
+	planet_class="pc_savannah"
+	system_name="Umbrella Co"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_12.dds"
+		}
+		background={
+			category="backgrounds"
+			file="triangle_split.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Xian Xie"
+		portrait="fun16"
+		texture=0
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_pacifist_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_pacifist"
+	civics={
+		"civic_agrarian_idyll"
+		"civic_beacon_of_liberty"
+	}
+	trait="trait_communal"
+	trait="trait_conservational"
+	trait="trait_sedentary"
+	trait="trait_rapid_breeders"
+}
+"Brackish Brooding Barbaculum Brotherhood Bouncing Botanical Barista Baklava"
+={
+	key="Brackish Brooding Barbaculum Brotherhood Bouncing Botanical Barista Baklava"
+	name_list="PLANT"
+	ship_prefix="ASS"
+	species_name="Barbaculum"
+	species_plural="Barbaculum"
+	species_class="PLANT"
+	species_adjective="Barbaculum"
+	species_bio=""
+	portrait="pla13"
+	name="Brackish Brooding Barbaculum Brotherhood Bouncing Botanical Barista Baklava"
+	adjective="Barbaculum"
+	authority="auth_dictatorial"
+	government="gov_military_dictatorship"
+	ftl=wormhole
+	weapon="tech_mass_drivers_1"
+	planet_name="Barbaculum Primum"
+	planet_class="pc_continental"
+	system_name="Barbaculum"
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_14.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Rhizome of Indigo"
+		portrait="pla13"
+		texture=4
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_authoritarian_room"
+	spawn_enabled=yes
+	ethic="ethic_militarist"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_police_state"
+		"civic_nationalistic_zeal"
+	}
+	trait="trait_sedentary"
+	trait="trait_conservational"
+	trait="trait_rapid_breeders"
+	trait="trait_resilient"
+}
+"Uninfected Collective"
+={
+	key="Uninfected Collective"
+	name_list="HUM4"
+	ship_prefix="EiF"
+	species_name="Kithri"
+	species_plural="Kithri"
+	species_class="FUN"
+	species_adjective="Kithrian"
+	species_bio=""
+	portrait="fun16"
+	name="Uninfected Collective"
+	adjective="UNINFECTED"
+	authority="auth_democratic"
+	government="gov_theocratic_republic"
+	ftl=wormhole
+	weapon="tech_missiles_1"
+	planet_name="Umbrella Co"
+	planet_class="pc_savannah"
+	system_name="Umbrella Co"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_12.dds"
+		}
+		background={
+			category="backgrounds"
+			file="triangle_split.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Xian Xie"
+		portrait="fun16"
+		texture=0
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_pacifist_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_beacon_of_liberty"
+		"civic_environmentalist"
+	}
+	trait="trait_sedentary"
+	trait="trait_slow_learners"
+	trait="trait_conservational"
+	trait="trait_communal"
+	trait="trait_conformists"
+}
