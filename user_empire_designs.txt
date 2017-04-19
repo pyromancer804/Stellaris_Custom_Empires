@@ -766,7 +766,8 @@
 	portrait="human"
 	name="Grand Duchy Ecclesius"
 	adjective="Ecclesians"
-	government="despotic_hegemony"
+	authority="auth_imperial"
+	government=""
 	ftl=wormhole
 	weapon="tech_lasers_1"
 	planet_name="Boethius Prime"
@@ -802,6 +803,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
+	room=""
 	spawn_enabled=yes
 	ethic="ethic_militarist"
 	ethic="ethic_fanatic_materialist"
@@ -822,7 +824,8 @@
 	portrait="rep14"
 	name="Duchy of Neuromance"
 	adjective="Neuromanceran"
-	government="despotic_hegemony"
+	authority="auth_imperial"
+	government=""
 	ftl=wormhole
 	weapon="tech_mass_drivers_1"
 	planet_name="Boethius Prime"
@@ -858,6 +861,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
+	room=""
 	spawn_enabled=yes
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
@@ -1416,4 +1420,66 @@
 	trait="trait_conservational"
 	trait="trait_communal"
 	trait="trait_conformists"
+}
+"Reptilian Order"
+={
+	key="Reptilian Order"
+	name_list="HIVE"
+	ship_prefix="HISSSSSSS"
+	species_name="Reptilian"
+	species_plural="Reptilians"
+	species_class="REP"
+	species_adjective="Reptilian"
+	species_bio=""
+	portrait="rep4"
+	name="Reptilian Order"
+	adjective="Reptilian Order"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	ftl=wormhole
+	weapon="tech_mass_drivers_1"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_9.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripes.dds"
+		}
+		colors={
+			"green"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Barack Obama"
+		portrait="rep4"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="God Emperor"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_pacifist_room"
+	spawn_enabled=yes
+	ethic="ethic_hive_mind"
+	civics={
+		"civic_hive_natural_neural_network"
+		"civic_hive_one_mind"
+	}
+	trait="trait_thrifty"
+	trait="trait_industrious"
+	trait="trait_sedentary"
+	trait="trait_slow_breeders"
 }
