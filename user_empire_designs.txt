@@ -199,7 +199,7 @@
 	ftl=wormhole
 	weapon="tech_mass_drivers_1"
 	planet_name="1000"
-	planet_class="pc_continental"
+	planet_class="pc_arctic"
 	system_name="1000"
 	initializer=""
 	graphical_culture="mammalian_01"
@@ -214,8 +214,8 @@
 			file="stripes.dds"
 		}
 		colors={
-			"grey"
-			"black"
+			"pink"
+			"pink"
 			"null"
 			"null"
 		}
@@ -501,7 +501,7 @@
 "Reaper Hive"
 ={
 	key="Reaper Hive"
-	name_list="HUM1"
+	name_list="HIVE"
 	ship_prefix=""
 	species_name="Reaper"
 	species_plural="Reapers"
@@ -516,7 +516,7 @@
 	ftl=wormhole
 	weapon="tech_mass_drivers_1"
 	planet_name="Penthul"
-	planet_class="pc_tropical"
+	planet_class="pc_arctic"
 	system_name="Penkar"
 	initializer=""
 	graphical_culture="molluscoid_01"
@@ -531,8 +531,8 @@
 			file="v.dds"
 		}
 		colors={
-			"dark_grey"
-			"black"
+			"pink"
+			"pink"
 			"null"
 			"null"
 		}
@@ -1482,4 +1482,298 @@
 	trait="trait_industrious"
 	trait="trait_sedentary"
 	trait="trait_slow_breeders"
+}
+"Commonwealth of Man"
+={
+	key="Commonwealth of Man"
+	name_list="Human2"
+	ship_prefix="CNS"
+	species_name="Human"
+	species_plural="Humans"
+	species_class="MAM"
+	species_adjective="Human"
+	species_bio=""
+	portrait="human"
+	name="Commonwealth of Man"
+	adjective="Human"
+	authority="auth_dictatorial"
+	flags={
+human_2custom_start_screen	}
+	government=""
+	ftl=wormhole
+	weapon="tech_lasers_1"
+	planet_name="Unity"
+	planet_class="pc_continental"
+	system_name="Deneb"
+	initializer="deneb_system"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_4.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Sidney Beauclair"
+		portrait="human_female_04"
+		texture=0
+		hair=6
+		clothes=2
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room=""
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	trait="trait_quick_learners"
+	trait="trait_nomadic"
+}
+"Holy Dick Head Order"
+={
+	key="Holy Dick Head Order"
+	name_list="HUM4"
+	ship_prefix="ASS"
+	species_name="Dick Head"
+	species_plural="Dick Heads"
+	species_class="AVI"
+	species_adjective="Asshole"
+	species_bio=""
+	portrait="avi9"
+	name="Holy Dick Head Order"
+	adjective="Asshole"
+	authority="auth_imperial"
+	government=""
+	ftl=wormhole
+	weapon="tech_mass_drivers_1"
+	planet_name="Dick Tip"
+	planet_class="pc_tropical"
+	system_name="Dick Star"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_17.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Dick Masterson"
+		portrait="avi9"
+		texture=1
+		hair=0
+		clothes=0
+		ruler_title="Lead Dick Head"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room=""
+	spawn_enabled=yes
+	ethic="ethic_fanatic_materialist"
+	trait="trait_intelligent"
+	trait="trait_natural_physicists"
+	trait="trait_sedentary"
+}
+"Dick Head Order"
+={
+	key="Dick Head Order"
+	name_list="HUM4"
+	ship_prefix="ASS"
+	species_name="Dick Head"
+	species_plural="Morlocks"
+	species_class="ART"
+	species_adjective="Dick Heads"
+	species_bio=""
+	portrait="art11"
+	name="Dick Head Order"
+	adjective="Asshole"
+	authority="auth_oligarchic"
+	government=""
+	ftl=wormhole
+	weapon="tech_mass_drivers_1"
+	planet_name="Hollywood"
+	planet_class="pc_tropical"
+	system_name="Dick Tip"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Dick Masterson"
+		portrait="art11"
+		texture=0
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room=""
+	spawn_enabled=yes
+	ethic="ethic_fanatic_materialist"
+	trait="trait_intelligent"
+	trait="trait_natural_physicists"
+	trait="trait_repugnant"
+}
+"Holy Dax Head Order"
+={
+	key="Holy Dax Head Order"
+	name_list="ART3"
+	ship_prefix=""
+	species_name="Dax Head"
+	species_plural="Dax Suckers"
+	species_class="ART"
+	species_adjective="DaxHole"
+	species_bio=""
+	portrait="art11"
+	name="Holy Dax Head Order"
+	adjective="Dax Hean"
+	authority="auth_oligarchic"
+	government=""
+	ftl=wormhole
+	weapon="tech_mass_drivers_1"
+	planet_name="Dick Tip"
+	planet_class="pc_tropical"
+	system_name="Hollywood"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_17.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"black"
+			"orange"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Dick Masterson"
+		portrait="art11"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Lead Dick Head"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room=""
+	spawn_enabled=yes
+	ethic="ethic_fanatic_materialist"
+	trait="trait_intelligent"
+	trait="trait_nonadaptive"
+	trait="trait_natural_physicists"
+	trait="trait_quick_learners"
+	trait="trait_rapid_breeders"
+}
+"The Murlocs"
+={
+	key="The Murlocs"
+	name_list="HUM4"
+	ship_prefix="ISS"
+	species_name="Dick Head"
+	species_plural="Dick Heads"
+	species_class="HUM"
+	species_adjective="Rage"
+	species_bio=""
+	portrait="human"
+	name="The Murlocs"
+	adjective="What makes you a rage?"
+	authority="auth_imperial"
+	government="gov_illuminated_autocracy"
+	ftl=wormhole
+	weapon="tech_mass_drivers_1"
+	planet_name="The Bunker"
+	planet_class="pc_continental"
+	system_name="City of Failure"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_17.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Dick Masterson"
+		portrait="human_male_04"
+		texture=0
+		hair=8
+		clothes=4
+		ruler_title="Lead Dick Head"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_spiritualism_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_mechanists"
+		"civic_technocracy"
+	}
+	trait="trait_intelligent"
+	trait="trait_natural_engineers"
+	trait="trait_nonadaptive"
+	trait="trait_rapid_breeders"
 }
