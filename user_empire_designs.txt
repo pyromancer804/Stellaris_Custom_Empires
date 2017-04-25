@@ -1777,3 +1777,67 @@ human_2custom_start_screen	}
 	trait="trait_nonadaptive"
 	trait="trait_rapid_breeders"
 }
+"House HarCAWnen"
+={
+	key="House HarCAWnen"
+	name_list="HUM1"
+	ship_prefix="ISS"
+	species_name="Caw"
+	species_plural="Caws"
+	species_class="AVI"
+	species_adjective="Caw"
+	species_bio=""
+	portrait="avi10"
+	name="House HarCAWnen"
+	adjective="House HarCawnen"
+	authority="auth_oligarchic"
+	government="gov_megacorporation"
+	ftl=wormhole
+	weapon="tech_mass_drivers_1"
+	planet_name="Giedi Prime"
+	planet_class="pc_continental"
+	system_name="Giedi"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"dark_blue"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Vladimir"
+		portrait="avi10"
+		texture=0
+		hair=0
+		clothes=3
+		ruler_title="Baron"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_hive_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_corporate_dominion"
+		"civic_mining_guilds"
+	}
+	trait="trait_thrifty"
+	trait="trait_industrious"
+	trait="trait_slow_breeders"
+	trait="trait_slow_learners"
+}
